@@ -87,7 +87,6 @@ else:
     )
     predicted_hydrogen = model.predict(user_input)[0]
 
-    st.balloons()
     st.metric(
         label="إجمالي إنتاج الهيدروجين المتوقع",
         value=f"{predicted_hydrogen:.2f} kg/day",
