@@ -88,7 +88,6 @@ else:
     predicted_hydrogen = model.predict(user_input)[0]
 
     st.metric(
-        label="Total expected hydrogen production
-",
+        label="Total expected hydrogen production",
         value=f"{predicted_hydrogen:.2f} kg/day",
     )
