@@ -10,7 +10,7 @@ st.set_page_config(
     page_title="Hydrogen Production Predictor", page_icon="🔋", layout="centered"
 )
 
-st.title(" Green Hydrogen Production Forecasting Modelر")
+st.title(" Green Hydrogen Production Forecasting Model")
 
 
 # Data loading function and model training with caching to accelerate performance
